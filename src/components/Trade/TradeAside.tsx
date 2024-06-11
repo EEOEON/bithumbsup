@@ -1,8 +1,9 @@
-import CoinList from './CoinList';
+import CoinList from './CoinMarketList';
 
 const TradeAside = () => {
   return (
     <div
+      className='trade-aside'
       style={{
         border: '1px solid #eee',
         borderRadius: '4px',
